@@ -1,0 +1,102 @@
+; --- Force survivors to go inside the building at the tunnel exit so that the route takes a similar amount of time to the plank
+{
+	"classname" "prop_dynamic"
+	"origin" "1150 3739 -160"
+	"angles" "0 0 0"
+	"model" "models/props_street/police_barricade2.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+{
+	"classname" "prop_dynamic"
+	"origin" "1080 3815 -161"
+	"angles" "0 90 0"
+	"model" "models/props_street/police_barricade2.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+{
+	"classname" "prop_dynamic"
+	"origin" "985 3807 -161"
+	"angles" "0 99.5 0"
+	"model" "models/props_street/police_barricade.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+{
+	"classname" "prop_dynamic"
+	"origin" "915 3739 -160"
+	"angles" "0 144.5 0"
+	"model" "models/props_street/police_barricade2.mdl"
+	"solid" "6"
+	"disableshadows" "1"
+}
+
+
+
+Map C13m4
+; ================================================================= ===
+; == CỌC ĐẠN TĨNH ==
+; == Thêm hoặc sửa đổi đống đạn xuất hiện ==
+; ================================================================= ===
+; --- Đống đạn thay thế (vì chúng được sinh ra thông qua vũ khí_item_spawn)
+lọc:
+{
+	"  búa " " 2012267 "
+}
+{
+	"  búa " " 2010044 "
+}
+{
+	"  búa " " 2438432 "
+}
+{
+	"  búa " " 2469309 "
+}
+cộng:
+; --- Đến đêm chung kết bắt đầu
+{
+	" tên lớp "  " vũ khí_đạn_spawn "
+	" xuất xứ "  " -4128 -7885 371 "
+	" góc "  " 0 0 0 "
+	" model "  " models/props/terror/ammo_stack.mdl "
+	" vững chắc "  " 6 "
+	" disableshadows "  " 1 "
+	" spawnflags "  " 2 "
+	" đếm "  " 5 "
+}
+; --- Bằng cách thả một chiều
+{
+	" tên lớp "  " vũ khí_đạn_spawn "
+	" xuất xứ "  " -1528 -1882 -269 "
+	" góc "  " 0 0 -5 "
+	" model "  " models/props/terror/ammo_stack.mdl "
+	" vững chắc "  " 6 "
+	" disableshadows "  " 1 "
+	" spawnflags "  " 2 "
+	" đếm "  " 5 "
+}
+; --- Cuối đường hầm
+{
+	" tên lớp "  " vũ khí_đạn_spawn "
+	" xuất xứ "  " -745 1931 -361 "
+	" góc "  " 12,5 0 0 "
+	" model "  " models/props/terror/ammo_stack.mdl "
+	" vững chắc "  " 6 "
+	" disableshadows "  " 1 "
+	" spawnflags "  " 2 "
+	" đếm "  " 5 "
+}
+; --- Sau đường hầm
+{
+	" tên lớp "  " vũ khí_đạn_spawn "
+	" xuất xứ "  " -1305 3844 -118 "
+	" góc "  " 12,5 0 0 "
+	" model "  " models/props/terror/ammo_stack.mdl "
+	" vững chắc "  " 6 "
+	" disableshadows "  " 1 "
+	" spawnflags "  " 2 "
+	" đếm "  " 5 "
+}
+
+
